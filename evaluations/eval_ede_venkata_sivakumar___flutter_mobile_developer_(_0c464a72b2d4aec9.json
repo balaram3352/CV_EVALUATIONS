@@ -1,0 +1,22 @@
+{
+  "schemaVersion": "2.0",
+  "candidateName": "Ede Venkata Sivakumar",
+  "role": "Flutter Mobile Developer (Android + iOS + Flutter)",
+  "cvPath": "NewCVs/Sivakumar, Ede Venkata CV updated 11-May-2026 EN-GB.pdf",
+  "transcriptPath": null,
+  "evaluationType": "cv_screening",
+  "overallScore": 44,
+  "recommendation": "Not Recommended",
+  "summaryText": "12+ year lead iOS developer (Swift, SwiftUI, UIKit, 95% accessibility, 100% unit tests) on TSB 5+ years. App Store release pipeline owner. No Android, no Flutter.",
+  "gapsToProbe": [
+    "Android development",
+    "Flutter/Dart",
+    "Riverpod/Pigeon",
+    "Firebase"
+  ],
+  "reportPath": null,
+  "evaluatedOn": "2025-07-18T00:00:00Z",
+  "evaluatorId": "unknown",
+  "teamId": "unknown",
+  "contextStudioKey": ""
+}
