@@ -1,0 +1,63 @@
+name: Delete Files Older Than 90 Days
+
+on:
+  schedule:
+    # Runs every day at 02:00 UTC
+    - cron: '0 2 * * *'
+  workflow_dispatch: # Allow manual trigger
+
+permissions:
+  contents: write
+
+jobs:
+  delete-old-files:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          # Fetch full history so git log timestamps are accurate
+          fetch-depth: 0
+
+      - name: Find and delete files older than 90 days
+        id: delete_files
+        run: |
+          CUTOFF_DATE=$(date -d '90 days ago' +%s)
+          DELETED_FILES=()
+
+          # Iterate over all tracked files in the repo
+          while IFS= read -r file; do
+            # Skip if not a regular file (e.g. symlinks, directories)
+            [ -f "$file" ] || continue
+
+            # Get the last commit date for this file (Unix timestamp)
+            LAST_COMMIT_TS=$(git log -1 --format="%ct" -- "$file" 2>/dev/null)
+
+            # If git has no history for the file, fall back to filesystem mtime
+            if [ -z "$LAST_COMMIT_TS" ]; then
+              LAST_COMMIT_TS=$(stat -c "%Y" "$file" 2>/dev/null || echo 0)
+            fi
+
+            if [ "$LAST_COMMIT_TS" -lt "$CUTOFF_DATE" ]; then
+              echo "Deleting: $file (last modified $(date -d @$LAST_COMMIT_TS '+%Y-%m-%d'))"
+              git rm "$file"
+              DELETED_FILES+=("$file")
+            fi
+          done < <(git ls-files)
+
+          if [ ${#DELETED_FILES[@]} -eq 0 ]; then
+            echo "No files older than 90 days found."
+            echo "deleted=false" >> "$GITHUB_OUTPUT"
+          else
+            echo "deleted=true" >> "$GITHUB_OUTPUT"
+            echo "count=${#DELETED_FILES[@]}" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Commit and push deletions
+        if: steps.delete_files.outputs.deleted == 'true'
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git commit -m "chore: remove files not modified in the last 90 days [skip ci]"
+          git push
