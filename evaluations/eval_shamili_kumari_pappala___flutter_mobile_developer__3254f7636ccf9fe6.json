@@ -1,0 +1,21 @@
+{
+  "schemaVersion": "2.0",
+  "candidateName": "Shamili Kumari Pappala",
+  "role": "Flutter Mobile Developer (Android + iOS + Flutter)",
+  "cvPath": "NewCVs/PAPPALA, SHAMILI KUMARI CV updated 16-Jul-2026 EN-GB.pdf",
+  "transcriptPath": null,
+  "evaluationType": "cv_screening",
+  "overallScore": 38,
+  "recommendation": "Not Recommended",
+  "summaryText": "4-year Android developer (Kotlin, Jetpack Compose, Hilt, Coroutines, TDD) on TSB and PNC. Flutter training attended, no production delivery. iOS absent.",
+  "gapsToProbe": [
+    "Flutter production delivery",
+    "iOS development",
+    "Espresso testing"
+  ],
+  "reportPath": null,
+  "evaluatedOn": "2025-07-18T00:00:00Z",
+  "evaluatorId": "unknown",
+  "teamId": "unknown",
+  "contextStudioKey": ""
+}
