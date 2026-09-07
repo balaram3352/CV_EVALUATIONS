@@ -1,0 +1,21 @@
+{
+  "schemaVersion": "2.0",
+  "candidateName": "Arijit Das",
+  "role": "Flutter Mobile Developer (Android + iOS + Flutter)",
+  "cvPath": "NewCVs/0045Z0744-EN-GB (4).pdf",
+  "transcriptPath": null,
+  "evaluationType": "cv_screening",
+  "overallScore": 45,
+  "recommendation": "Not Recommended",
+  "summaryText": "10+ year iOS developer (Swift, SwiftUI, Objective-C) across TSB, PNC, Co-op with Flutter listed as skill and one BT App Flutter project at Wipro. Android absent. Flutter depth unconfirmed \u2014 no Dart/Riverpod/Pigeon specifics.",
+  "gapsToProbe": [
+    "Flutter production depth (Riverpod, Pigeon, Dart)",
+    "Android development",
+    "Accessibility"
+  ],
+  "reportPath": null,
+  "evaluatedOn": "2025-07-18T00:00:00Z",
+  "evaluatorId": "unknown",
+  "teamId": "unknown",
+  "contextStudioKey": ""
+}
