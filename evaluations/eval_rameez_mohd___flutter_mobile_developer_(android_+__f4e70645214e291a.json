@@ -1,0 +1,21 @@
+{
+  "schemaVersion": "2.0",
+  "candidateName": "Rameez Mohd",
+  "role": "Flutter Mobile Developer (Android + iOS + Flutter)",
+  "cvPath": "NewCVs/0045O1744-EN-GB.pdf",
+  "transcriptPath": null,
+  "evaluationType": "cv_screening",
+  "overallScore": 35,
+  "recommendation": "Not Recommended",
+  "summaryText": "8+ year Android engineer (Kotlin, Jetpack Compose, MVVM, Coroutines, Hilt, Firebase Crashlytics, Wear OS, Android Auto) on Suzuki Connect and Honda. No iOS, no Flutter.",
+  "gapsToProbe": [
+    "iOS development",
+    "Flutter/Dart",
+    "Espresso/Robolectric testing"
+  ],
+  "reportPath": null,
+  "evaluatedOn": "2025-07-18T00:00:00Z",
+  "evaluatorId": "unknown",
+  "teamId": "unknown",
+  "contextStudioKey": ""
+}
