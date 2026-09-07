@@ -1,0 +1,21 @@
+{
+  "schemaVersion": "2.0",
+  "candidateName": "Sumathi Lode",
+  "role": "Flutter Mobile Developer (Android + iOS + Flutter)",
+  "cvPath": "NewCVs/Lode, Sumathi CV updated 01-Dec-2025 EN-GB.pdf",
+  "transcriptPath": null,
+  "evaluationType": "cv_screening",
+  "overallScore": 45,
+  "recommendation": "Not Recommended",
+  "summaryText": "10+ year iOS developer (Swift, SwiftUI, RxSwift, Accessibility, TDD, SSL Pinning) on TSB Bank 4+ years. Flutter basics only \u2014 IBM training attended, no production delivery. Android absent.",
+  "gapsToProbe": [
+    "Flutter production delivery",
+    "Android development",
+    "Firebase integration"
+  ],
+  "reportPath": null,
+  "evaluatedOn": "2025-07-18T00:00:00Z",
+  "evaluatorId": "unknown",
+  "teamId": "unknown",
+  "contextStudioKey": ""
+}
