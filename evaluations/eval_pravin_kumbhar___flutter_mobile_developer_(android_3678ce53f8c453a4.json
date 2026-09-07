@@ -1,0 +1,23 @@
+{
+  "schemaVersion": "2.0",
+  "candidateName": "Pravin Kumbhar",
+  "role": "Flutter Mobile Developer (Android + iOS + Flutter)",
+  "cvPath": "NewCVs/PRAVIN-KUMBHAR-CV- ANDROID DEVELOPER.pdf",
+  "transcriptPath": null,
+  "evaluationType": "cv_screening",
+  "overallScore": 30,
+  "recommendation": "Not Recommended",
+  "summaryText": "4.6-year Android developer (Kotlin, Java, Jetpack Compose, Hilt, Retrofit, Firebase) on SBI YONO. Only 4.6 years, no iOS, no Flutter, no Android testing frameworks documented.",
+  "gapsToProbe": [
+    "iOS development",
+    "Flutter/Dart",
+    "Espresso/Robolectric",
+    "Accessibility",
+    "CI/CD"
+  ],
+  "reportPath": null,
+  "evaluatedOn": "2025-07-18T00:00:00Z",
+  "evaluatorId": "unknown",
+  "teamId": "unknown",
+  "contextStudioKey": ""
+}
