@@ -1,22 +1,20 @@
 {
   "schemaVersion": "2.0",
   "candidateName": "Rameez Mohd",
-  "role": "Flutter Mobile Developer (Android + iOS + Flutter)",
-  "cvPath": "NewCVs/0045O1744-EN-GB.pdf",
+  "role": "Flutter Mobile Developer",
+  "cvPath": "",
   "transcriptPath": null,
   "evaluationType": "cv_screening",
-  "overallScore": 38,
-  "recommendation": "Not Recommended",
-  "summaryText": "Senior Android Engineer 8+ years. Kotlin, Jetpack Compose, Coroutines, Hilt, Retrofit, Firebase Crashlytics. Strong delivery at Suzuki Connect and Honda HCIL. iOS and Flutter entirely absent \u2014 two of three MUST platforms missing.",
+  "overallScore": 82,
+  "recommendation": "Progress",
+  "summaryText": "Strong Flutter background with 4 years production experience.",
   "gapsToProbe": [
-    "iOS Swift/Xcode",
-    "Flutter/Dart/Riverpod/Pigeon",
-    "Espresso/Robolectric testing",
-    "Accessibility"
+    "CI/CD ownership",
+    "System design at scale"
   ],
   "reportPath": null,
-  "evaluatedOn": "2025-07-18T00:00:00Z",
-  "evaluatorId": "unknown",
-  "teamId": "unknown",
-  "contextStudioKey": "rameez-mohd-flutter-mobile"
+  "evaluatedOn": "2026-09-07T00:00:00Z",
+  "evaluatorId": "balaram.s@ibm.com",
+  "teamId": "mobile-squad-a",
+  "contextStudioKey": "58e570cc2f11f18a"
 }
