@@ -1,0 +1,21 @@
+{
+  "schemaVersion": "2.0",
+  "candidateName": "Aparna Duddekunta",
+  "role": "Flutter Mobile Developer (Android + iOS + Flutter)",
+  "cvPath": "NewCVs/Aparna_D_iOS_Developer_IBM_Experience.pdf",
+  "transcriptPath": null,
+  "evaluationType": "cv_screening",
+  "overallScore": 40,
+  "recommendation": "Not Recommended",
+  "summaryText": "11+ year iOS developer (Swift, SwiftUI, Objective-C, Unit/UI testing) across Walmart, PNC, Ulta, DBS. React Native learning-phase only. No Android, no Flutter.",
+  "gapsToProbe": [
+    "Android development",
+    "Flutter/Dart",
+    "Alamofire/RxSwift"
+  ],
+  "reportPath": null,
+  "evaluatedOn": "2025-07-18T00:00:00Z",
+  "evaluatorId": "unknown",
+  "teamId": "unknown",
+  "contextStudioKey": ""
+}
