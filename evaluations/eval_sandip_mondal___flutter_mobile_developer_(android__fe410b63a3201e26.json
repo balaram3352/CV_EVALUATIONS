@@ -1,0 +1,21 @@
+{
+  "schemaVersion": "2.0",
+  "candidateName": "Sandip Mondal",
+  "role": "Flutter Mobile Developer (Android + iOS + Flutter)",
+  "cvPath": "NewCVs/0042KV744-SandipMondal_iOS.pdf",
+  "transcriptPath": null,
+  "evaluationType": "cv_screening",
+  "overallScore": 40,
+  "recommendation": "Not Recommended",
+  "summaryText": "13+ year iOS architect/developer (Swift, SwiftUI, Objective-C, SSL Pinning, SSO) across Philips, PNC, Ulta. React Native cross-platform. No Android native, no Flutter.",
+  "gapsToProbe": [
+    "Android development",
+    "Flutter/Dart/Riverpod",
+    "Alamofire/RxSwift"
+  ],
+  "reportPath": null,
+  "evaluatedOn": "2025-07-18T00:00:00Z",
+  "evaluatorId": "unknown",
+  "teamId": "unknown",
+  "contextStudioKey": ""
+}
