@@ -1,0 +1,22 @@
+{
+  "schemaVersion": "2.0",
+  "candidateName": "Ashwani Pandey",
+  "role": "Flutter Mobile Developer (Android + iOS + Flutter)",
+  "cvPath": "NewCVs/001ZYM_Pandey, Ashwani CV.pdf.pdf",
+  "transcriptPath": null,
+  "evaluationType": "cv_screening",
+  "overallScore": 5,
+  "recommendation": "Not Recommended",
+  "summaryText": "Java/Spring backend developer with 11 years experience. Zero mobile skills \u2014 no Android, iOS, or Flutter. All three MUST platforms entirely absent.",
+  "gapsToProbe": [
+    "Android development",
+    "iOS development",
+    "Flutter/Dart",
+    "Mobile frameworks entirely absent"
+  ],
+  "reportPath": null,
+  "evaluatedOn": "2025-07-18T00:00:00Z",
+  "evaluatorId": "unknown",
+  "teamId": "unknown",
+  "contextStudioKey": "ashwani-pandey-flutter-mobile"
+}
