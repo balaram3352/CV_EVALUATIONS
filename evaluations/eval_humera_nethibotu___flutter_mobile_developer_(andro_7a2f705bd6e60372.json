@@ -1,0 +1,21 @@
+{
+  "schemaVersion": "2.0",
+  "candidateName": "Humera Nethibotu",
+  "role": "Flutter Mobile Developer (Android + iOS + Flutter)",
+  "cvPath": "NewCVs/004YWD744_Humera_Resume.pdf",
+  "transcriptPath": null,
+  "evaluationType": "cv_screening",
+  "overallScore": 43,
+  "recommendation": "Not Recommended",
+  "summaryText": "12+ year lead iOS developer (Swift, SwiftUI, UIKit, Dynatrace, Adobe Analytics, Firebase, Alamofire) across ICICI, PNC, IBM. Strong nice-to-have coverage. No Android, no Flutter.",
+  "gapsToProbe": [
+    "Android development",
+    "Flutter/Dart/Riverpod/Pigeon",
+    "XCTest evidence"
+  ],
+  "reportPath": null,
+  "evaluatedOn": "2025-07-18T00:00:00Z",
+  "evaluatorId": "unknown",
+  "teamId": "unknown",
+  "contextStudioKey": ""
+}
