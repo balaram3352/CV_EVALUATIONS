@@ -1,0 +1,23 @@
+{
+  "schemaVersion": "2.0",
+  "candidateName": "Shridhar Agrawal",
+  "role": "Flutter Mobile Developer (Android + iOS + Flutter)",
+  "cvPath": "NewCVs/003SAU744-EN-GB.pdf",
+  "transcriptPath": null,
+  "evaluationType": "cv_screening",
+  "overallScore": 42,
+  "recommendation": "Not Recommended",
+  "summaryText": "10+ year senior iOS developer (Swift, SwiftUI, UIKit, Realm, Firebase, CocoaPods). Multi-region delivery (Suzuki Connect). No Android, no Flutter.",
+  "gapsToProbe": [
+    "Android development",
+    "Flutter/Dart",
+    "RxSwift evidence",
+    "XCTest",
+    "Alamofire"
+  ],
+  "reportPath": null,
+  "evaluatedOn": "2025-07-18T00:00:00Z",
+  "evaluatorId": "unknown",
+  "teamId": "unknown",
+  "contextStudioKey": ""
+}
