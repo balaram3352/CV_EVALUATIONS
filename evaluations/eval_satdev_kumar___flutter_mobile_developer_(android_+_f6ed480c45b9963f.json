@@ -1,0 +1,22 @@
+{
+  "schemaVersion": "2.0",
+  "candidateName": "Satdev Kumar",
+  "role": "Flutter Mobile Developer (Android + iOS + Flutter)",
+  "cvPath": "NewCVs/005U6A744-satdevkumarAndroid7aOnePage.docx",
+  "transcriptPath": null,
+  "evaluationType": "cv_screening",
+  "overallScore": 48,
+  "recommendation": "Not Recommended",
+  "summaryText": "7+ year senior Android developer with exceptional Android depth (Kotlin, Jetpack Compose, Hilt, Coroutines, Espresso, Firebase, SSL Pinning, OWASP, AOSP). No iOS, no Flutter documented.",
+  "gapsToProbe": [
+    "iOS development",
+    "Flutter/Dart production delivery",
+    "Riverpod/Pigeon",
+    "Accessibility"
+  ],
+  "reportPath": null,
+  "evaluatedOn": "2025-07-18T00:00:00Z",
+  "evaluatorId": "unknown",
+  "teamId": "unknown",
+  "contextStudioKey": ""
+}
