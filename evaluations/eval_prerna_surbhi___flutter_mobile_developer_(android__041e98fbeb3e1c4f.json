@@ -1,0 +1,21 @@
+{
+  "schemaVersion": "2.0",
+  "candidateName": "Prerna Surbhi",
+  "role": "Flutter Mobile Developer (Android + iOS + Flutter)",
+  "cvPath": "NewCVs/SURBHI, PRERNA CV updated 17-Jun-2026 EN-GB.pdf",
+  "transcriptPath": null,
+  "evaluationType": "cv_screening",
+  "overallScore": 36,
+  "recommendation": "Not Recommended",
+  "summaryText": "7.5-year Android developer (Kotlin, Jetpack Compose, Hilt, Coroutines, 85% unit test coverage, runtime security) across Barclays, DBS, TSB, Fiserv. No iOS, no Flutter.",
+  "gapsToProbe": [
+    "iOS development",
+    "Flutter/Dart",
+    "Espresso testing frameworks"
+  ],
+  "reportPath": null,
+  "evaluatedOn": "2025-07-18T00:00:00Z",
+  "evaluatorId": "unknown",
+  "teamId": "unknown",
+  "contextStudioKey": ""
+}
